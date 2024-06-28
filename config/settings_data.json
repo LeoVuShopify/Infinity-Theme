@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "logo_width": 90,
@@ -135,11 +144,10 @@
 
     ],
     "blocks": {
-      "13440586637131102011": {
-        "type": "shopify:\/\/apps\/tinycookie\/blocks\/cookie-embed\/b65baef5-7248-4353-8fd9-b676240311dc",
+      "14070305384974036441": {
+        "type": "shopify:\/\/apps\/quick-social-login\/blocks\/app-embed\/835209bc-8680-493e-b34a-6dd763a16101",
         "disabled": false,
         "settings": {
-          "custom_css": ""
         }
       }
     },
