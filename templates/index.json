@@ -9,12 +9,12 @@
 */
 {
     "sections": {
-        "blank-section": {
+        "blank_section": {
             "type": "blank"
         }
     },
     "order": [
-        "blank-section"
+        "blank_section"
     ]
   }
   

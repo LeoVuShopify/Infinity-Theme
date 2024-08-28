@@ -1,0 +1,51 @@
+{% liquid 
+    assign section_settings = section.settings
+
+    if section_settings.full_screen
+        assign full_screen = "full-screen"
+    endif
+%}
+
+{%  style  %}
+
+{% endstyle %}
+
+<div class="blank {{ full_screen }}">
+    <div>
+        {% comment %} CODE Here {% endcomment %}
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Blank",
+        "tag": "section",
+        "class": "section section-blank",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Layout"
+            },
+                {
+                    "type": "checkbox",
+                    "id": "full_screen",
+                    "label": "Enable Full Srceen",
+                    "default": false
+                },
+            {
+                "type": "header",
+                "content": "Padding"
+            },
+                {
+                    "type": "number",
+                    "id": "padding_top",
+                    "label": "Padding Top"
+                },
+                {
+                    "type": "number",
+                    "id": "padding_bottom",
+                    "label": "Padding Bottom"
+                }
+        ]
+    }
+{% endschema %}

@@ -1,0 +1,21 @@
+.d-block {
+    display: block;
+}
+.d-flex {
+    display: flex;
+}
+.d-none {
+    display: none;
+}
+
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+
+/* Element Tag HTML */
+div {
+    display: block;
+}
